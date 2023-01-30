@@ -323,6 +323,9 @@ flex-wrap: wrap;
         width: 80%;
         margin-bottom: 40px;
     }
+    .Moments{
+        justify-content: center;  
+    }
 }
 @media screen and(max-width: 500px) {
     .menu-navegacion{
@@ -347,4 +350,31 @@ flex-wrap: wrap;
     .contact-us{
         width: 90%;
     }
+    .Moments{
+        width: 95%; 
+    }
+}
+.Moments  {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    justify-content: center; 
+}
+.Moments img{
+width: 0px;
+flex-grow: 1;
+object-fit: cover;
+opacity: .8;
+transition: .5s ease;
+}
+
+.Moments img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(130%);
+}
+.Moments {
+    margin: 0 auto;
+    min-height: 100%;
 }
