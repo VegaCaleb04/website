@@ -65,7 +65,7 @@ body{
     }
     header{
       height: 100vh;  
-      background-image: linear-gradient(to top, rgba(251, 194, 235, 0.034) 0%, #a6c0ee17 100%),url(/img/login.jpg);
+      background-image: linear-gradient(to top, rgba(251, 194, 235, 0.034) 0%, #a6c0ee17 100%),url(img/login.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
