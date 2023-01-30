@@ -150,7 +150,7 @@ align-items: center;
 .subtitulo{
     text-align: center;
     font-weight: 300;
-    color: rgb(89, 190, 190);
+    color: rgb(44, 112, 121);
     font-size: 40px;
 }
 /* Frases*/
@@ -188,7 +188,7 @@ width: 45%;
 }
 .n-reglas{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #080313;
 }
 .number{
     display: inline-block;
